@@ -7,3 +7,7 @@ malesPeopleData = peopleData[peopleData["gender"] == "male"]
 
 femalesPeopleData = peopleData[peopleData["gender"] == "female"]
 # print(femalesPeopleData)
+
+print(peopleData.info())
+
+peopleData["wage"].plot()
