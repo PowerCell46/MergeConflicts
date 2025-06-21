@@ -1,0 +1,5 @@
+name,gender,dateOfBirth,position,wage,hasCommittedCrime
+John Doe,male,1990-01-01,Software Engineer,70000,false
+Jane Smith,female,1985-05-15,Data Scientist,80000,true
+Alice Johnson,female,1992-07-20,Product Manager,90000,false
+Peter Brown,male,1988-03-10,UX Designer,75000,true
