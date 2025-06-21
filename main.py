@@ -13,4 +13,7 @@ femalesPeopleData = peopleData[peopleData["gender"] == "female"]
 print("Gender distribution: ")
 print(peopleData["gender"].value_counts())
 
+print("Has committed crime distribution: ")
+print(peopleData["hasCommittedCrime"].value_counts())
+
 # peopleData["wage"].plot()
