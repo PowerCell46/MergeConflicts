@@ -8,6 +8,9 @@ malesPeopleData = peopleData[peopleData["gender"] == "male"]
 femalesPeopleData = peopleData[peopleData["gender"] == "female"]
 # print(femalesPeopleData)
 
-print(peopleData.info())
+# print(peopleData.info())
 
-peopleData["wage"].plot()
+print("Gender distribution: ")
+print(peopleData["gender"].value_counts())
+
+# peopleData["wage"].plot()
